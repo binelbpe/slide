@@ -1,0 +1,114 @@
+
+.homeimagecontainer{
+  position: relative;
+  height: 282px; 
+  width:100%;
+  align-items: center;
+  width: fit-content;
+  top: 0;
+}
+.homeimage{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+.homecaption{
+  font-family:"__Source_Sans_3_4cbbeb,__Source_Sans_3_Fallback_4cbbeb";
+  font-weight: 700;
+  font-size: clamp(1.5rem,2vw + 1rem,2.25rem);
+  top: 99px;
+  left: 75px;
+  position: absolute;
+  width: 406px;
+  color: white;
+}
+
+.main-body{
+  margin-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: white;
+  width: 1400px;
+  margin-bottom: 0;
+}
+
+.main-body{
+  height:fit-content;
+  display: grid;
+  grid-gap:12px;
+  grid-template-rows: 24px 1fr;
+}
+.subbody-header{
+  height:24px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.subbody-body{
+  height:250;
+  display:grid;
+  grid-gap: 24px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.subbody-subbody{
+ margin-left: 4px;
+ margin-right: 4px;
+ margin-top: 4px;
+ margin-bottom: 4px;
+  display:grid;
+  grid-template-rows: 1fr 90px;
+  cursor: pointer;
+}
+.subbody-body-1{
+  border-radius: 6px;
+  width: 315px;
+  height:200px;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+.subbody-body-1:hover{
+  width: 318px;
+}
+.subbody-info{
+  display:grid;
+  grid-template-rows:50px 20px 20px;
+  height:fit-content;
+  cursor: pointer;
+}
+.video-title{
+font-size: 18px;
+padding-top: 0;
+cursor: pointer;
+}
+.video-author{
+  
+font-size: 14px;
+padding-bottom: 0;
+color: #027EB0;
+cursor: pointer;
+}
+.video-stat{
+  padding-top: 0;
+font-size: 14px;
+font-weight: 100;
+padding-bottom: 0;
+color: rgb(101, 100, 100);
+cursor: pointer;
+}
+.view{
+  font-family: "__Source_Sans_3_4cbbeb","__Source_Sans_3_Fallback_4cbbeb";
+  font-size: 14px;
+  height:49px;
+  width:fit-content;
+  margin-left: 0;
+  font-weight: 600;
+    line-height: 24px;
+    letter-spacing: .1px;
+    color: rgba(61, 61, 250, 0.795);
+    cursor: pointer;
+}

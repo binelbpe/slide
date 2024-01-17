@@ -1,0 +1,86 @@
+.scroller{
+  height:72px;
+  display:flex;
+  flex-direction: row;
+  padding-top: 64px;
+}
+
+.button{
+  color: #303133;
+  background-color:#EBF1F4;
+  height:fit-content;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 100vmax;
+  font-size: 16px;
+  font-weight: 600;
+  padding-inline: 14px;
+  height:41px;
+  max-width:fit-content;
+  border-color: transparent;
+  margin-right:10px;
+  margin-left:10px;
+  max-width: fit-content;
+  cursor: pointer;
+}
+.button:hover{
+  background-color:#dcdce1;
+}
+
+.button-1{
+  color: #303133;
+  background-color:#EBF1F4;
+  height: var(--height);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 100vmax;
+  font-size: 16px;
+  font-weight: 600;
+  padding-inline: 14px;
+  height:41px;
+  max-width:fit-content;
+  border-color: transparent;
+  margin-right:20px;
+  margin-top: 12px;
+  background-color: black;
+  margin-left: 12px;
+  cursor: pointer;
+}
+.button-1:hover{
+  background-color:#dcdce1;
+}
+
+.scroller button svg{
+  width:24px;
+  height:24px
+  
+}
+.button-class{
+  border:none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: 100vmax;
+  max-width:fit-content ;
+  cursor: pointer;
+  background: transparent;
+}
+.button-class:hover{
+  background-color:#dcdce1;
+}
+.button-class-1{
+  border:none;
+  display: inline-flex;
+  align-items: center;
+  color:white;
+  gap: 4px;
+  border-radius: 100vmax;
+  max-width:fit-content ;
+  cursor: pointer;
+  background: transparent;
+}
+.button-class-1:hover{
+  background-color:#dcdce1;
+}

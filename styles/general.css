@@ -1,0 +1,10 @@
+.body{
+  font-family: var(__Source_Sans_3_Fallback_4cbbeb);
+ overflow:x hidden;
+ width:1520px;
+ padding-left: 0;
+ padding-right:0;
+ margin-left: 0;
+ margin-right: 0;
+ margin-top: 0;
+}
